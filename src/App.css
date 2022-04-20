@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+  height: 70%;
+  margin: auto;
+  box-shadow: 0px -4px 12px grey;
+}
+/*.container {
+  border: solid;
+  border-radius: 5px;
+  border-width: 5px;
+}*/
+.secondary {
+  /*padding-left: 25%;*/
+  width: 60%;
+}
+
+.text {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.input-box {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-form {
+  padding-bottom: 10px;
+}
+.selects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector1 {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  background-color: grey;
+}
+
+.selector2 {
+  /*margin-left: 30%;*/
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  background-color: grey;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+.button1 {
+  padding-top: 20px;
+}
+.button2 {
+  padding-top: 20px;
+  margin-left: 30%;
+}
+
+.result {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+}
+
+select {
+  width: 30%;
+}
+
+input {
+  font-size: 20px;
+  border-style: none none solid;
+  border-radius: 0px;
+  border-color: black;
+  outline: none;
+  color: darkgrey;
+}
